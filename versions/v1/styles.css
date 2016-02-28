@@ -1,0 +1,68 @@
+@import url("main-content-area.css");
+@import url("footer.css");
+html * {
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #333333;
+}
+h2 a{
+	font-size:40px;
+	color:white;
+	text-decoration: none;
+}
+h2 a:hover{
+	color:red;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.5s ease-in; /*Safari & Chrome*/
+}
+
+#header{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: #FF6666;
+	box-shadow: 0px 5px 20px black;
+	text-align:  center;
+}
+
+#nav{
+	float:left;
+}
+
+#signreg{
+	float:right;
+}
+
+.menu{
+	width:1000px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+.menu li {
+	padding: .3em;
+	display: inline;
+	font-size: 30px;
+}
+
+.menu li a {
+	text-decoration:none;
+	color: black;
+	opacity: .75;
+}
+
+.menu .selected {
+	opacity: 1;
+}
+
+li a:hover{
+	color:white;
+		transition: all 0.3s ease-in;
+	-webkit-transition: all 0.2s ease-in; /*Safari & Chrome*/
+}
+
+.clear{
+	clear:both;
+}

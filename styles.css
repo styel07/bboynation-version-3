@@ -1,0 +1,120 @@
+@import url("main-content-area.css");
+@import url("footer.css");
+html * {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+body{
+	background-color: #333333;
+}
+h2 a{
+	color:black;
+	font-size:40px;
+	text-decoration: none;
+	transition: all 0.2s ease-in;
+	-webkit-transition: background 0.2s,linear 0s,color:0.2s, linear 0s; /*Safari & Chrome*/
+}
+h2 a:hover{
+	color:red;
+}
+#header{
+	position: fixed;
+	top: 0px;
+	background-color: #ddd;
+	box-shadow: 0px 5px 20px black;
+	text-align:  center;
+	width:100%;
+	height:180px;
+	margin-right: auto;
+	margin-left: auto;	
+	font-size: 20px;
+}
+#header-container{
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+#logo{
+	float: right;
+	width: 300px;
+	height: 224px;
+}
+#logo1{
+	width:100%;
+	height:100%;
+}
+#logo2{
+	width:100%;
+	height:100%;
+}
+.stack{
+	position:absolute;
+}
+
+@keyframes spin {
+ 	from { transform: rotate(0deg); }
+  	to { transform: rotate(360deg); }
+}
+#logo:hover #logo1{
+	/*background: url("pictures/events/R-16/poster-main.jpg");**/
+ 	animation-name: spin;
+ 	animation-duration: 5s;
+ 	animation-iteration-count: 1000;
+}
+
+#login-menu{
+ 	border: 2px solid black;
+ 	margin-top: 90px;
+	float: left;
+}
+#log{
+	border: 2px solid red;
+	text-align: left;
+}
+#log a{
+	text-decoration: none;
+}
+.menu{
+
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+
+	width: 135px;
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-right: 4px;
+	background-color: #333333;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	height: 25px;
+	line-height: 27px;
+	color: white;
+	margin-bottom: 3px;
+}
+.menu ul li a:hover{
+	background-color: #ff6363;
+	color: black;
+}
+.selected{
+	background-color: #ff6363;
+	color: black;	
+}
+.clear{
+	clear: both;
+}
+
+.module-background{
+	background-color: #6E6E6E;
+}
+.module-heading{
+	border: 1px solid red;
+}

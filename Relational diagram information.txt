@@ -1,0 +1,35 @@
+Relational DB Schema for bboynation
+
+
+------------account-----------
+account	id
+	username
+	password
+	type
+
+-------------event------------
+
+event id
+	name
+	date
+	time
+	version
+	picture
+
+event 	information
+
+	registration-fee
+	divisions
+
+event	location
+	map
+	approx km to location
+-------------------------------
+
+31 days "Jan","March","May","July","August","Oct","Dec"
+
+30 days
+"April","June","Sept","Nov"
+
+28 days
+Feb
